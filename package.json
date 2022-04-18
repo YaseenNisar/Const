@@ -1,0 +1,15 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "starting sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass scss/style.scss  scss/style.css -w"
+
+  },
+  "author": "Yaseen",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
